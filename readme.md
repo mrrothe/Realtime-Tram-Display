@@ -10,7 +10,7 @@ Shows tram data on the command line
 
 **Usage**: $python3 tram.py *ATCOCode*
 
-You can find the atco code for your stop in [ntm.csv](tramSearch/ntm.csv)
+You can find the ATCO code for your stop in [ntm.csv](tramSearch/ntm.csv)
 
 **Example**:
 
@@ -19,16 +19,16 @@ You can find the atco code for your stop in [ntm.csv](tramSearch/ntm.csv)
 tramDisplay
 -----------
 
-Needs to be deployed to AWS Lambda (or equivilent serverless infrastructure)
+Needs to be deployed to AWS Lambda (or equivalent serverless infrastructure)
 
-Prerequisites: requests module needs to be packaged along with the script. 
+**Prerequisites**: requests module needs to be packaged along with the script. 
 
 tramSearch
 ----------
 
-Needs to be deployed to AWS Lambda (or equivilent serverless infrastructure)
+Needs to be deployed to AWS Lambda (or equivalent serverless infrastructure)
 
-Prerequisites: requests and mysql modules need to be packaged along with the script. 
+**Prerequisites**: requests and mysql modules need to be packaged along with the script. 
 
 Configuration for database containing ATCO stop information needs to be provided in db_config.py
 
